@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: red;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 900px;
+    font-style: italic;
+}
+
+p{
+    /* line-height: 1.5; */
+
+
+/* Short hand property */
+    font: italic 100 1.2rem/1.5 'Arial', sans-serif;
+}
+
+/*  Word and letter spacing */
+p2{
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    
+}
+
+/*  Text decuration */
+
+p3{
+    text-decoration:line-through ;
+}
+
+/* button */
+
+button{
+    border: 3px solid red;
+    background-color: blue;
+    color: white;
+    padding:  20px 30px 40px 50px;
+    margin: 20px;
+}
+/*  Box model */
+h2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    padding: 10px;
+}
+
+/* overflow */
+
+.h2{
+    background-color: green;
+    width: 100px;
+    height: 200px;
+    border: 5px solid red;
+    padding: 10px;
+    /* scorle kora */
+    overflow: scroll; 
+    /* word ke banga */
+    overflow-wrap: break-word;  
+}
+ /*  filter image color change kore */
+img{
+    filter: grayscale(50);
+}
+
+/* selector specificity */
+
+h3{
+    color: red;
+    color: green;
+    color: yellow;
+}
+/* importance */
+
+h4{
+    color: red !important;
+    color: green ;
+    color: yellow;
+}
+
+/* variable css ar mode css call */
+
+h5{
+    color:var(--primary-color);
+}
+
+
+/*  position  */
+
+.el-a{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 3px solid red;
+     position: relative;
+    /*top: 50px;  */
+    .el-b{
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+        border: 2px solid blue;
+        /* position: relative; */
+        /* top: 50px; */
+        /* left: 10px; */
+        /* bottom: 50px;
+        right: 40px;
+         */
+         /* position: fixed;
+         bottom: 100px;
+         left: 50px; */
+         position: absolute;
+         right: 0px;
+
+    
+    
+    
+    } 
+
+
+
+
+
+
+}
+
+
+
